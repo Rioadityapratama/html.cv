@@ -1,0 +1,75 @@
+body {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  background-color: rgb(0, 0, 0);
+}
+header {
+  padding: 30px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: blueviolet;
+}
+nav ul {
+  padding: 0;
+  text-align: center;
+  font-size: large;
+}
+nav ul li {
+  display: inline;
+  margin-right: 25px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(59, 118, 191);
+}
+.navigasi a:hover {
+  text-decoration: underline;
+  color: rgb(236, 172, 172);
+}
+section {
+  text-align: left;
+}
+footer {
+  padding: 10px;
+  text-align: center;
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(0, 0, 0);
+  background-color: rgb(58, 60, 207);
+}
+#SD::first-line {
+  color: rgb(197, 171, 222);
+}
+#SMP::first-line {
+  color: rgb(197, 171, 222);
+}
+#SMA::first-line {
+  color: rgb(197, 171, 222);
+}
+#s1::first-line {
+  color: rgb(197, 171, 222);
+}
+#A::first-line {
+  color: rgb(197, 171, 222);
+}
+#AU::first-line {
+  color: rgb(197, 171, 222);
+}
+#UUU::first-line {
+  color: rgb(197, 171, 222);
+}
+.biodata {
+  color: rgb(204, 209, 166);
+}
+.sosialmedia a {
+  color: rgb(255, 255, 255);
+}
+.pendidikan {
+  color: rgb(204, 209, 166);
+}
+.skills {
+  color: rgb(204, 209, 166);
+  border: 1px solid #ddd;
+  padding: 5px;
+  margin: 5px 0;
+  box-shadow: 0 0 3px #aaa;
+}
