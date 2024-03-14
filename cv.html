@@ -9,12 +9,12 @@
       body {
         font-family: 'Times New Roman', Times, serif, sans-serif;
         background-color: rgb(0, 0, 0);
-        color: blueviolet;
       }
       header {
         padding: 30px;
         text-align: center;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: blueviolet;
       }
       nav ul {
         padding: 0;
@@ -29,13 +29,12 @@
         text-decoration: none;
         color: rgb(59, 118, 191);
       }
-      a:hover {
+      .navigasi a:hover {
         text-decoration: underline;
-        color: rgb(255, 240, 240);
+        color: rgb(236, 172, 172);
       }
       section {
         text-align: left;
-        color: antiquewhite;
       }
       footer {
         padding: 10px;
@@ -45,6 +44,39 @@
         color: rgb(0, 0, 0);
         background-color: rgb(58, 60, 207);
       }
+      #SD::first-line {
+        color: rgb(197, 171, 222);
+      }
+      #SMP::first-line {
+        color: rgb(197, 171, 222);
+      }
+      #SMA::first-line {
+        color: rgb(197, 171, 222);
+      }
+      #s1::first-line {
+        color: rgb(197, 171, 222);
+      }
+      #A::first-line {
+        color: rgb(197, 171, 222);
+      }
+      #AU::first-line {
+        color: rgb(197, 171, 222);
+      }
+      #UUU::first-line {
+        color: rgb(197, 171, 222);
+      }
+      .biodata {
+        color: rgb(204, 209, 166);
+      }
+      .sosialmedia a {
+        color: rgb(255, 255, 255);
+      }
+      .pendidikan {
+        color: rgb(204, 209, 166);
+      }
+      .skills {
+        color: rgb(204, 209, 166);
+      }
     </style>
   </head>
   <body>
@@ -53,34 +85,34 @@
       <p>Web Developer | Graphic Designer</p>
     </header>
     <nav>
-      <ul>
+      <ul class="navigasi">
         <li><a href="#biodata">Biodata</a></li>
         <li><a href="#pendidikan">Pendidikan</a></li>
         <li><a href="#skills">Skills</a></li>
       </ul>
     </nav>
-    <section id="biodata">
+    <section class="biodata">
       <h2>Biodata Diri</h2>
-      <p>Nama: Rio Aditya</p>
-      <p>Email: Rioaditya@gmail.com</p>
-      <p>TTL: Mataram,30 November 2003</p>
-      <p>No Telp:082147301535</p>
+      <p id="UUU">Nama: Rio Aditya</p>
+      <p id="UUU">Email: Rioaditya@gmail.com</p>
+      <p id="UUU">TTL: Mataram,30 November 2003</p>
+      <p id="UUU">No Telp:082147301535</p>
     </section>
-    <section id="pendidikan">
+    <section class="pendidikan">
       <h2>Pendidikan</h2>
       <ul>
-        <li>SDK Santo Antonius</li>
-        <li>SMP Negeri 6 Mataram</li>
-        <li>SMA Negeri 2 Mataram</li>
-        <li>Undiknas Denpasar</li>
+        <li id="SD">SDK Santo Antonius</li>
+        <li id="SMP">SMP Negeri 6 Mataram</li>
+        <li id="SMA">SMA Negeri 2 Mataram</li>
+        <li id="s1">Undiknas Denpasar</li>
       </ul>
     </section>
-    <section id="skills">
+    <section class="skills">
       <h2>Skills</h2>
-      <p>HTML,UI UX</p>
-      <p>Networking</p>
+      <p id="A">HTML,UI UX</p>
+      <p id="AU">Networking</p>
     </section>
-    <footer>
+    <footer class="sosialmedia">
       <p>
         Ikuti saya di sosial media: <a href="https://www.instagram.com/ngrh_riyo?igsh=anNxNW1mZjhob2th&utm" target="blank" alt="Instagram">Instagram</a>,
         <a href="https://www.facebook.com/rio.a.pratama.5815?mibextid=opq0tG" target="_blank" alt="Facebook">Facebook</a>
